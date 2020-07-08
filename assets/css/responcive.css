@@ -1,0 +1,121 @@
+@media screen and (max-width: 1200px) {
+  /* top-title responsive css */
+  .heading h2 {
+    font-size: px;
+    padding: 50px 0 30px 0;
+  }
+  .heading p {
+    font-size: 15px;
+  }
+
+  /* profile-wrapper responsive css */
+  .profile-left img {
+    width: 270px;
+    height: 220px;
+  }
+  .profile-right h2 {
+    font-size: 33px;
+    margin-left: 40px;
+  }
+  .profile-details li {
+    font-size: 25px;
+    margin-left: 40px;
+  }
+
+  /* main-wrapper responsive css */
+  .spot {
+    width: 30%;
+    margin-right: 10px;
+  }
+  .spot img {
+    width: 270px;
+    height: 270px;
+  }
+  .spot h3 {
+    font-size: 17px;
+    padding: 20px 0;
+  }
+  .spot p {
+    width: 97%;
+    font-size: 13px;
+  }
+  .btn-wrapper {
+    margin-top: 40px;
+  }
+  .btn-wrapper button {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .spot img {
+    width: 220px;
+    height: 220px;
+  }
+  .spot p {
+    width: 97%;
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 670px) {
+  /* top-title responsive css */
+  .heading h2 {
+    font-size: 27px;
+    padding: 50px 0 30px 0;
+  }
+  .heading p {
+    font-size: 13px;
+  }
+
+  /* profile-wrapper responsive css */
+  .profile-wrapper {
+    height: 600px;
+  }
+  .profile-left img {
+    width: 300px;
+    height: 250px;
+  }
+  .profile {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-details li {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  /* main-wrapper responsive css */
+  .spots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .spot {
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 100px;
+  }
+  .spot-text {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .spot img {
+    width: 370px;
+    height: 370px;
+  }
+  .spot h3 {
+    font-size: 25px;
+  }
+  .spot p {
+    font-size: 17px;
+  }
+  .btn-wrapper {
+    margin-top: 30px;
+  }
+
+}
